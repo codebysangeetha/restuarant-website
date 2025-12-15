@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Blueberry Pastry</title>
+    <style>
+        div {
+           margin-top: 150px;
+        }
+        body {
+             background-color: rgb(185, 225, 185);
+             text-align: center;
+             font-family: Arial, sans-serif;
+        }
+        button {
+            border-radius: 10px;
+            color: rgb(146, 188, 18);
+            font-weight: bold;
+            padding: 8px 16px;
+            cursor: pointer;
+            border: none;
+            background-color: #f0f0f0;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            font-family: inherit;
+            font-size: 1rem;
+        }
+        button:hover {
+            background-color: rgb(146, 188, 18);
+            color: white;
+            transform: scale(1.1);
+        }
+        table {
+            height: 350px;
+            width: 200px;
+            border: none;
+            border-radius: 12px;
+            box-shadow: 10px 10px 30px rgb(240, 80, 83);
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        img {
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+            height: 150px;
+            width: 150px;
+            cursor: pointer;
+        }
+        img:hover {
+            transform: scale(1.2);
+            z-index: 10;
+        }
+        td, th {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <th>
+                    <img src="blueberrypastry.jpg" alt="Blueberry Pastry" />
+                </th>
+            </tr>
+            <tr>
+                <td>Blueberry Pastry</td>
+            </tr>
+            <tr>
+                <td>90/-</td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" onclick="alert('Blueberry Pastry added to cart')">Add to Cart</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

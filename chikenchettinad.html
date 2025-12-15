@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chicken Chettinad</title>
+  <style>
+    div {
+      margin-top: 150px;
+    }
+
+    body {
+      background-color: rgb(185, 225, 185);
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+
+    button {
+      border-radius: 10px;
+      color: rgb(146, 188, 18);
+      font-weight: bold;
+      padding: 8px 16px;
+      cursor: pointer;
+      border: none;
+      background-color: #f0f0f0;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    button:hover {
+      background-color: rgb(146, 188, 18);
+      color: white;
+      transform: scale(1.1);
+    }
+
+    table {
+      height: 350px;
+      width: 200px;
+      border: 5px solid rgb(220, 132, 134);
+      box-shadow: 10px 10px 30px rgb(240, 80, 83);
+      margin: 0 auto;
+    }
+
+    .popup-image {
+      transition: transform 0.3s ease;
+      cursor: pointer;
+      border-radius: 10px;
+      height: 150px;
+      width: 150px;
+    }
+
+    .popup-image:hover {
+      transform: scale(1.2);
+      z-index: 10;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <table border align="center">
+      <tr>
+        <th>
+          <img src="chickenchettinad.jpg" alt="Chicken Chettinad" class="popup-image" />
+        </th>
+      </tr>
+      <tr>
+        <td><b>Chicken Chettinad</b></td>
+      </tr>
+      <tr>
+        <td><b>260/-</b></td>
+      </tr>
+      <tr>
+        <td>
+          <button type="button" onclick="alert('Chicken Chettinad added to cart!')">
+            <b>Add to Cart</b>
+          </button>
+        </td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
